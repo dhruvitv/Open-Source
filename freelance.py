@@ -192,6 +192,10 @@ def download_selenium(driver, interested_price):
         initial_excel.to_excel('scrape_output.xlsx' , index = False , header = None)
         # Add a blank row to the beginning per Govind's request
         #rows_to_write.insert(0, [''] * len(rows_to_write[0]))
+
+    
+
+    
     return
     
 if __name__ == "__main__":
